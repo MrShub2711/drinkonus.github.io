@@ -1,0 +1,31 @@
+@media (max-width:700px){
+    .div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .wine , .beer ,.Vodka , .Scotch{
+        margin: 8px 0;
+    }
+    
+
+}
+@media (max-width:1500px){
+    header{
+        min-width: 100vw;
+    }
+    body{
+        background-color: aqua;
+    }
+    .drinksall{
+        width: 100%;
+        margin: 10px 0 30px 0;
+    }
+    .alcohol li{
+        margin: 2vh 49px;
+    }
+
+    #offer{
+        text-align: end;
+        top: -80%;
+    }
+}

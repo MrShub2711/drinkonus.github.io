@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('https://images.unsplash.com/photo-1522441815192-d9f04eb0615c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: cover;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    display:flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    background-color: rgba(52, 119, 207 , 90%);
+}
+#logo{
+    width: 5vw;
+    clip-path: circle(50%);
+}
+.logo{
+    margin-top: 5px;
+    text-align: end;
+    position: sticky;
+    margin-left: 20px;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+}
+.list li{
+    padding:0 10px;
+}
+.nav{
+    position: sticky;
+}
+.list li a{
+    font-family:Segoe UI, 'Tahoma', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+    text-decoration: none;
+    color: black;
+}
+
+.list a:hover{
+    text-decoration: underline;
+    font-size: large;
+}
+.alcohol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 21px;
+}
+.alcohol li{
+    list-style: none;
+    margin: 0 49px;
+}
+.alcohol a{
+    text-decoration: none;
+    font-family: 'Rowdies', cursive;
+    background-color: #0973ffe6;
+    color: white;
+
+    padding: 10px 35px;
+}
+.alcohol a:hover{
+    background-color: darkblue;
+    color:tomato;
+}
+.drinksall{
+    background-repeat: no-repeat;
+    width: 90vw;
+    margin: 20px 0 60px 55px;
+}
+.offer{
+    font-size: 4vh;
+    font-weight: bold;
+    margin-top: 20px;
+}
+span{
+    font-family: Impact, 'Haettenschweiler', Arial Narrow Bold, sans-serif;
+    font-weight: 900;
+    font-stretch: expanded;
+    font-size: xx-large;
+}
+.delivery{
+    font-size: 5vh;
+    margin-bottom: 8px;
+    font-family:Verdana, Geneva, 'Tahoma', sans-serif;
+}
+.div{
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-between;
+}
+.class{
+    width: 25%;
+}
+.wine , .beer , .Vodka , .Scotch{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.funfact{
+    margin-top: 100px;
+    background-color: rgba(11, 207, 125, 0.403);
+    text-align: start;
+    padding: 20px 11px 16px 80px;
+}
+h3{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size:2.5vw; 
+    text-decoration: dotted;
+}
+#ol li{
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 1.8vw;
+    font-family: 'Cute Font', cursive;
+}
+.footer{
+    background-color: rgb(52, 119, 207);
+}
+#img{
+    width: 2em;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.footer p{
+    margin: 10px 10px;
+    font-size: larger;
+}
+.partners{
+    padding: 5px;
+    margin-bottom: 15px;
+}
