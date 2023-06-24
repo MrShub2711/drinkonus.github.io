@@ -1,107 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap"
+      rel="stylesheet"
+    />
     <title>DrinksOnUS</title>
-</head>
-<link rel="stylesheet" href="Drinks.css">
-<link rel="stylesheet" href="DrinkResponsive.css">
+    <link rel="stylesheet" href="Drinks.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="logo">
-            <img src="https://cdn-icons-png.flaticon.com/128/920/920582.png" class="logo" id='logo'>
-            <h5>DrinksOnUS</h5>
-        </div>
-        <div class="nav">
-            <ul class="list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Help</a></li>
-            </ul>
-        </div>
-    
+      <div
+        class="logo"
+        style="display: flex; flex-direction: column; align-items: center"
+      >
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/920/920582.png"
+          class="logo"
+          id="logo"
+        />
+        <h5>DrinksOnUS</h5>
+      </div>
+      <div class="nav">
+        <ul class="list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a id="contact-link" style="cursor: pointer">Contact</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
     </header>
     <main>
-        <ul class="alcohol">
-            <li><a href="#">Whiskey</a></li>
-            <li><a href="#">Beer</a></li>
-            <li><a href="#">Scotch</a></li>
-            <li><a href="#">Vodka</a></li>
-            <li><a href="#">Wine</a></li>
-            <li><a href="#">Cocktail</a></li>
-        </ul>
-        <br><br>
-        <img src="https://images.unsplash.com/photo-1557149559-d74af2d38a1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGFsY29ob2x8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
-        class="drinksall"> 
+      <script src="script.js"></script>
+      <ul class="alcohol">
+        <li><a href="#">Whiskey</a></li>
+        <li><a href="#">Beer</a></li>
+        <li><a href="#">Scotch</a></li>
+        <li><a href="#">Vodka</a></li>
+        <li><a href="#">Wine</a></li>
+        <li><a href="#">Cocktail</a></li>
+      </ul>
+      <br /><br />
+      <img
+        src="https://images.unsplash.com/photo-1557149559-d74af2d38a1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGFsY29ob2x8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
+        class="drinksall"
+      />
 
-        <div class="content">
-            <div class="delivery">
-                Now, <span>DrinksOnUs </span> is in your City. Order Now. <br>You want a Drink? No worry! We got you covered.
-            </div>
-            <div class="offer">
-                We didn't came alone. We have interesting offers for all my fellow Drinkers. <br>Order above @15000/-<sup>*</sup> and get a <span>free</span> drink from us. So, What are you waiting for?
-            </div>
+      <div class="content">
+        <div class="delivery">
+          Now, DrinksOnUs is in your City. Order Now. <br />You want a Drink? No
+          worry! We got you covered.
         </div>
-        <div class="div">
-            <div class="wine">
-                <img src="https://cdn-icons-png.flaticon.com/128/850/850207.png" class="class" id="wine">
-                Lorem, ipsum dolor sit amet.
-            </div>
-            <div class="beer">
-                <img src="https://cdn-icons.flaticon.com/png/128/737/premium/737994.png?token=exp=1643818655~hmac=a34af5c991993b64cc7f9021a62b5a46"
-                    class="class" id="beer">
-                Lorem ipsum dolor sit amet.
-            </div>
-            <div class="Vodka">
-                <img src="https://cdn-icons-png.flaticon.com/128/2844/2844877.png" class="class" id="Vodka">
-                Lorem ipsum dolor sit amet.
-            </div>
-            <div class="Scotch">
-                <img src="https://cdn-icons-png.flaticon.com/128/2405/2405628.png" class="class" id="Scotch">
-                Lorem ipsum dolor sit.
-            </div>
+        <div class="offer">
+          We didn't come alone. We have interesting offers for all my fellow
+          drinkers. <br />Order above @15000/- <sup>*</sup> and get a free drink
+          from us. So, what are you waiting for?
         </div>
-        <div class="funfact">
-            <h3>Fun-Facts: I gurantee you don't know about your Drinks. <br></h3>
-            <ol id='ol'>
-                <li>It's Illegal to Get a Fish Drunk in Ohio</li>
-                <li>Alcohol Is as Old as Human Civilization</li>
-                <li>You Can't Drink Alcohol in British Parliament (unless you're the chancellor)</li>
-                <li> It Takes 600 Grapes to Make One Bottle of Wine</li>
-                <li>Teens who start drinking before the age of 15 are more likelyTrusted Source to develop alcohol
-                    dependence later on in life.</li>
-                <li>Women don't have as much of the enzyme that breaks alcohol down in the stomach which is one reason
-                    they feel the effects of alcohol at lower amounts.</li>
-            </ol>
+      </div>
+      <div class="div">
+        <div
+          class="wine"
+          style="display: flex; align-items: center; flex-direction: column"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/850/850207.png"
+            class="class"
+            id="wine"
+          />
+          Indulge in the rich flavors and velvety texture of our exquisite red
+          wine selection.
         </div>
+        <div
+          class="beer"
+          style="display: flex; align-items: center; flex-direction: column"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/931/931949.png"
+            class="class"
+            id="beer"
+          />
+          Savor the refreshing and diverse range of flavors in our handcrafted
+          beer collection.
+        </div>
+        <div
+          class="Vodka"
+          style="display: flex; align-items: center; flex-direction: column"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/2844/2844877.png"
+            class="class"
+            id="Vodka"
+          />
+          Experience the smoothness and purity of our premium vodka, perfect for
+          crafting your favorite cocktails.
+        </div>
+        <div
+          class="Scotch"
+          style="display: flex; align-items: center; flex-direction: column"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/2405/2405628.png"
+            class="class"
+            id="Scotch"
+          />
+          Immerse yourself in the timeless elegance and complex aromas of our
+          carefully aged Scotch whiskies.
+        </div>
+      </div>
+      <div
+        class="cards"
+        style="
+          display: flex;
+          flex-direction: row;
+          gap: 15px;
+          justify-content: center;
+          align-items: center;
+          height: 30vh;
+          background-color: linear-gradient(
+            -180deg,
+            rgb(255, 255, 255),
+            rgb(255, 255, 255) 30%,
+            rgb(240, 242, 247) 15%,
+            rgb(240, 242, 247) 85%
+          );
+        "
+      >
+        <span class="heading"
+          ><strong
+            >What is
+            <h2><b>DrinksOnUs</b></h2>
+            solving?</strong
+          ></span
+        >
+        <div class="card red">
+          <p class="tip">Curated Selection</p>
+          <p class="second-text">
+            Wide selection of wine, beer and spirits at your doorstep
+          </p>
+        </div>
+        <div class="card blue">
+          <p class="tip">Quick Delivery</p>
+          <p class="second-text">Delivery in 1 hour</p>
+        </div>
+        <div class="card green">
+          <p class="tip">No Minimum Order</p>
+          <p class="second-text">Delivery with no minimum order value</p>
+        </div>
+        <div class="card orange">
+          <p class="tip">Anti-breakage Packaging</p>
+          <p class="second-text">
+            Premium packaging to keep your order safe at every step
+          </p>
+        </div>
+      </div>
+
+      <div class="funfact">
+        <h1>Fun-Facts: I guarantee you don't know about your drinks.</h1>
+        <ol>
+          <li>It's Illegal to Get a Fish Drunk in Ohio</li>
+          <li>Alcohol Is as Old as Human Civilization</li>
+          <li>
+            You Can't Drink Alcohol in British Parliament (unless you're the
+            chancellor)
+          </li>
+          <li>It Takes 600 Grapes to Make One Bottle of Wine</li>
+          <li>
+            Teens who start drinking before the age of 15 are more likely to
+            develop alcohol dependence later on in life.
+          </li>
+          <li>
+            Women don't have as much of the enzyme that breaks alcohol down in
+            the stomach, which is one reason they feel the effects of alcohol at
+            lower amounts.
+          </li>
+        </ol>
+      </div>
     </main>
     <footer class="footer">
-        <div class="social">
-            <img src="https://cdn-icons-png.flaticon.com/128/1051/1051309.png"
-                id="img">
-            <img src="https://cdn-icons.flaticon.com/png/128/3128/premium/3128212.png?token=exp=1643916390~hmac=5f0413149d888f882e9fd0e17b9609bc"
-                id="img">
-            <img src="https://cdn-icons.flaticon.com/png/128/4926/premium/4926624.png?token=exp=1643916414~hmac=0e7082b6bbf1fceb3dc29c5ad9c2366e"
-                id="img">
-            <img src="https://cdn-icons.flaticon.com/png/128/2175/premium/2175198.png?token=exp=1643916327~hmac=00e74e6c5508ae38c62e7bbba5f2309c"
-                id="img">
-        </div>
-        <p>&copy; All copyrights reserved.</p>
-        <p class="partners">
-            Business Partners <br><br><br>
-            Jack Daniels | Royal Challengers | Royal Stag | Old Monk | Blue Label | Red Label | Johnny Walker |
-            Antiquity | VAT69 | 100PIPERS
-        </p>
+      <div class="social">
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/145/145802.png"
+          id="img"
+        />
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png"
+          id="img"
+        />
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/3670/3670151.png"
+          id="img"
+        />
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/3670/3670147.png"
+          id="img"
+        />
+      </div>
+      <p>&copy; All rights reserved.</p>
+      <p class="partners">
+        Business Partners <br /><br /><br />
+        Jack Daniels | Royal Challengers | Royal Stag | Old Monk | Blue Label |
+        Red Label | Johnny Walker | Antiquity | VAT69 | 100PIPERS
+      </p>
     </footer>
-</body>
-
+  </body>
 </html>
