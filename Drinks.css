@@ -369,7 +369,7 @@ input[type="submit"]:hover {
   }
 
   .container {
-    max-width: 95%;
+    width:fit-content;
   }
 }
 
@@ -409,7 +409,7 @@ input[type="submit"]:hover {
 @media only screen and (max-width: 440px) {
   /* Common Styles */
   .container {
-    max-width: 95%;
+    width:100%;
   }
 
   /* Navigation */
